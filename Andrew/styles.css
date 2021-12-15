@@ -1,0 +1,28 @@
+/* ------------- HTML ELEMENT SELECTORS ---- */
+p { /*Least specific */
+    border: 2px solid red;
+    margin: 75px;
+    padding: 20px; 
+    width: 300px;
+}
+
+div {
+    border: 5px solid orange;
+}
+
+/*-------------------- CLASSES ----------- */
+.newClass { /* more specific */
+    border: 2px solid green;
+}
+
+
+
+/*------------------ ID'S ----------------- */
+
+#name { /* even more specific */
+    text-align: right;
+    width: 500px;
+    border: 5px dashed blue;
+}
+
+/* inline styling is the most specific kind of styling. That's why the border is yellow instead of orange */

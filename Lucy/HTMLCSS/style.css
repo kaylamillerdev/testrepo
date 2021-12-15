@@ -1,0 +1,73 @@
+/* This is how you set up CSS rules */
+/*selector {
+    property: value;
+    property: value;
+}*/
+
+* {
+    //background-color: grey;
+    margin: auto; /* Centers elements on the page horizontally */
+    text-align: center; 
+}
+
+body {
+    //background-image: url(../images/download.jfif);
+    //background-repeat: no-repeat;
+    background-color: grey;
+    height: 100vh;
+}
+/* ------------------------- ELEMENT SELECTORS ----------------------------------*/
+/* Style the entire table */
+table {
+border: 2px solid black; /* shorthand border styling */
+border-width: 2px; /* longhand border styling (lines 15-17) */
+border-style: solid;
+border-color: black;
+border-radius: 10px;
+padding: 5px;
+}
+
+/* Target the table headers and table data tags by using a comma separtated list of the selectors */
+th, td {
+    width: 100px;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    color: purple;
+}
+
+img {
+    
+}
+
+/*---------------------------------------- ID's ------------------------------------- */
+
+ /* Target things with id="tableHeaders" in the HTML */
+#tableHeaders {
+    background-color: blue;
+    color: white; /* change text color to white */
+    text-align: center; /* center the header text */
+}
+
+/*-------------------------------------- CLASSES ------------------------------------ */
+
+/*Target things with class="personName" in the HTML */
+.personName {
+
+}
+
+/* Target things with class="data" in the HTML */
+.data {
+    background-color: black;
+    color: white; /* change text color to white */
+}
+
+.male {
+    background-color: lightblue;
+}
+
+.female {
+    background-color: lightpink;
+}

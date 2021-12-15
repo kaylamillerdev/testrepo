@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title> Magical Mystery Theater </title>
+</head>
+<body>
+    <h1> Magical Mystery Theater </h1>
+    <button type="button" onclick="buyTicket()"> Purchase Ticket</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Order of operations -->
+<!-- 
+    1) user clicks button
+    2) Buy Ticket gets called
+        2.1)  age prompt
+        2.2)  matinee prompt
+        2.3) call the matineeCost function and assign it's return value to a variable called cost
+        2.4) call the getBaseTicketCost function, passing in the age variable as a parameter
+        2.5) alert the ticket cost
+-->
